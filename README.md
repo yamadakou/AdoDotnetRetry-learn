@@ -3,6 +3,11 @@ Microsoft Docs「手順 4:ADO.NET で SQL に弾性的に接続する」のサ�
 - Microsoft Docs「手順 4:ADO.NET で SQL に弾性的に接続する」
     - https://docs.microsoft.com/ja-jp/sql/connect/ado-net/step-4-connect-resiliently-sql-ado-net
 
+## 使用するデータベース
+基にしたサンプルと同様、AdventureWorks スキーを使用。
+- Microsoft Docs「ステップ 2: ADO.NET 開発用の SQL データベースを作成する」を参照
+  - https://docs.microsoft.com/ja-jp/sql/connect/ado-net/step-2-create-sql-database-ado-net-development?view=sql-server-ver15
+
 ## ポイントと注意点
 - .Net Framework 4.8 以降で動作。
 - 再試行の回数や待ち時間、DB接続情報などコマンドの引数で変更可能。
